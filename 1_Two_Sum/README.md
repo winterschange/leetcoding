@@ -7,9 +7,7 @@ You may assume that each input would have exactly one solution, and you may not 
 #### Example:
 ```
 Given nums = [2, 7, 11, 15], target = 9,
-
-Because nums[0] + nums[1] = 2 + 7 = 9,
-return [0, 1].
+Because nums[0] + nums[1] = 2 + 7 = 9,return [0, 1].
 ```
 ### Solution:
 题目很简单，就是在一个列表里找出两个数字，是这两个数字的和等于target。<br>
@@ -25,9 +23,9 @@ def twoSum(self, nums, target):
                 return i,j 
 ```
 + 然后，我们可以想到，对于大于列表中大于target的数，是可以不用考虑的。因此，我们可以使用二分法，进行一个简单的查找，当然，要先排序。
-排序的复杂度是![](http://latex.codecogs.com/gif.latex?\\o(n log_2 n))
-，二分查找的复杂度是![](http://latex.codecogs.com/gif.latex?\\o(log_2 n))
-，总体的时间复杂度还是![](http://latex.codecogs.com/gif.latex?\\o(log_2 n))
+排序的复杂度是 ![](http://latex.codecogs.com/gif.latex?\\o(n log n))
+，二分查找的复杂度是 ![](http://latex.codecogs.com/gif.latex?\\o(log n))
+，总体的时间复杂度还是 ![](http://latex.codecogs.com/gif.latex?\\o(log n))
 。运行耗时48ms，但是内存占用比较大。
 
 ```Python
