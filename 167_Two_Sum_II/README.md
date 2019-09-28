@@ -1,7 +1,7 @@
 ## 167. Two Sum II - Input array is sorted
 `Easy` [leetcode: Problem 167 (Click this URL)](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 ### 相似题目：
-
+<table> [1. Two Sum](https://github.com/winterschange/leetcoding/tree/master/1_Two_Sum)
 ### Description:
 Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
 
