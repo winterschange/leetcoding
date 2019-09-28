@@ -25,9 +25,10 @@ def twoSum(self, nums, target):
                 return i,j 
 ```
 + 然后，我们可以想到，对于大于列表中大于target的数，是可以不用考虑的。因此，我们可以使用二分法，进行一个简单的查找，当然，要先排序。
-排序的复杂度是![](http://latex.codecogs.com/gif.latex?\\o(n log_2 n))，二分查找的复杂度是
-![](http://latex.codecogs.com/gif.latex?\\o(log_2 n))，总体的时间复杂度还是
-![](http://latex.codecogs.com/gif.latex?\\o(log_2 n))。运行耗时48ms，但是内存占用比较大。
+排序的复杂度是![](http://latex.codecogs.com/gif.latex?\\o(n log_2 n))
+，二分查找的复杂度是![](http://latex.codecogs.com/gif.latex?\\o(log_2 n))
+，总体的时间复杂度还是![](http://latex.codecogs.com/gif.latex?\\o(log_2 n))
+。运行耗时48ms，但是内存占用比较大。
 
 ```Python
 # find the position of target or the number just small than target
