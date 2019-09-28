@@ -10,7 +10,7 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,return [0, 1].
 ```
 ### Solution:
-题目很简单，就是在一个列表里找出两个数字，是这两个数字的和等于target。<br>
+题目很简单，就是在一个列表里找出两个数字，使这两个数字的和等于target。<br>
 + 好久没有做算法题目，手生了，因此先来个暴力搜索，这应该是最原始的想法了吧。:smile:算法复杂度是
 ![](http://latex.codecogs.com/gif.latex?\\o(n^2))
 
