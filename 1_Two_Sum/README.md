@@ -2,6 +2,7 @@
 `Easy` [leetcode: Problem 1 (Click this URL)](https://leetcode.com/problems/two-sum/)
 ### 相似题目：
 <table> [167. Two Sum II - Input array is sorted](https://github.com/winterschange/leetcoding/tree/master/167_Two_Sum_II)
+
 ### Description:
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
