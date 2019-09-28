@@ -56,10 +56,8 @@ def twoSum(self, nums, target):
             break
         else:
             low += 1
-    if index_sortted[low] < index_sortted[up]:
-        return index_sortted[low], index_sortted[up] 
-    else:  
-        return index_sortted[up], index_sortted[low]
+
+    return index_sortted[low], index_sortted[up] 
 ```
 + 那么，有没有又快又好的算法呢？ 当然，那就是hash表了。python内置的字典dict就是一种哈希表，他查找和插入的速度是常数，时间复杂度是
 ![](http://latex.codecogs.com/gif.latex?\\o(n))。
@@ -74,4 +72,4 @@ def twoSum(self, nums, target):
 
     return []
 ```
-怎么样，是不是很简洁呢？
+怎么样，是不是很简洁易懂呢？
