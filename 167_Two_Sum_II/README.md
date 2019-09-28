@@ -1,5 +1,5 @@
 ## 167. Two Sum II - Input array is sorted
-`Easy` [leetcode: Problem 1 (Click this URL)](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+`Easy` [leetcode: Problem 167 (Click this URL)](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 ### 相似题目：
 
 ### Description:
@@ -61,6 +61,6 @@ def twoSum(self, numbers: List[int], target: int) -> List[int]:
         else:
             i += 1
 ```
-原来他们使用了从两头向中间查找的策略，这样在最坏的情况下，需要查找![](http://latex.codecogs.com/gif.latex?\\o(\frac{n}_{2}))。
-而我们的策略在最坏情况下，需要查找![](http://latex.codecogs.com/gif.latex?\\o(\frac{nlog_{2}n}_{2}))。
+原来他们使用了从两头向中间查找的策略，这样在最坏的情况下，需要查找![](http://latex.codecogs.com/gif.latex?\\o(\frac{n}{2}))。
+而我们的策略在最坏情况下，需要查找![](http://latex.codecogs.com/gif.latex?\\o(\frac{nlog_{2}n}{2}))。
 
